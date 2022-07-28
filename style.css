@@ -1,3 +1,44 @@
-carousel-item {
-    backdrop-filter: blur(10px)
+.card {
+    width: 18rem;
+    text-align: center;
+}
+
+.cards {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* media queary for  */
+@media (max-width: 576px) {
+
+    carousel-item img {
+        width: 234px;
+        height: 223px;
+        margin-top: 10px;
+    }
+
+    .container-1 img {
+        width: 150px;
+        display: grid;
+        grid-template-columns: repeat(1.1fr);
+        display: block;
+
+    }
+
+    .register {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* min1 */
+@media only screen and (max-width: 768px) {
+    carousel-item {
+        width: 138px;
+        height: 280px;
+
+    }
+
+
 }
